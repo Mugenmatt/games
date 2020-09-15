@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background-color: #41337a;
+    background-image: url("https://www.transparenttextures.com/patterns/crisp-paper-ruffles.png");
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 20px solid #41337a;
+}
+
+.welcome {
+    font-size: 4rem;
+    color: #C2EFEB;
+    margin: 1.5% 0;
+    text-align: center;
+}
+
+.games {
+    /* margin-bottom: 10%; */
+}
+
+footer {
+    width: 100%;
+    margin-top: 5%;
+    background-color: brown;
+}
+
+.me {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
