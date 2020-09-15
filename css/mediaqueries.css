@@ -1,0 +1,216 @@
+@media (max-width:1440px) {
+
+    /* DRUM KIT */
+
+    .drum {
+        background-position-y: -250px;
+    }
+
+}
+
+@media (max-width:1280px) {
+
+    /* DRUM KIT */
+
+    .instrument {
+        width: 8%;
+        margin: 0 15px;
+    }
+
+    kbd {
+        padding: 0 15px;
+    }
+
+    .sound-name {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media (max-width:900px) {
+    
+    .clock {
+        width: 250px;
+        height: 250px;
+    }
+
+    .centerClock {
+        width: 5px;
+        height: 5px;
+    }
+
+    .hand {
+        height: 3px;
+    }
+
+    .hour {
+        width: 40px;
+    }
+    
+    .minute {
+        width: 60px;
+    }
+    
+    .second {
+        width: 70px;
+    }
+
+    .welcome {
+        font-size: 3rem;
+    }
+    
+
+    /* TIC TAC TOE */
+
+
+    
+    .ticTacToeGame {
+        padding: 0;
+    }
+
+    /* DRUM KIT */
+
+    .drum {
+        background-position-y: -100px;
+    }
+
+    .instrument {
+        width: 8%;
+        margin: 0 9px;
+    }
+
+    kbd {
+        padding: 0 15px;
+        font-size: 2rem;
+    }
+
+    .sound-name {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media (max-width:800px) {
+
+    /* DRUM KIT */
+
+    .drum {
+        width: 95%;
+        background-position-y: 0;
+    }
+
+}
+
+@media (max-width:700px) {
+
+    .welcome {
+        font-size: 2.5rem;
+        margin: 2.5% 0;
+    }
+
+    .ticTacToeGame {
+        width: 550px;
+    }
+
+    .resetTictacToe {
+        margin-right: 8%;
+    }
+
+    .cell {
+        height: 150px;
+    }
+
+    .x::after {
+        font-size: 10rem;
+    }
+
+    .o::after {
+        font-size: 10rem;
+    }
+
+    .container {
+        border: 10px solid #41337a;
+    }
+
+}
+
+@media (max-width:500px) {
+
+    .welcome {
+        font-size: 2rem;
+        margin: 5.5% 0;
+    }
+
+    .ticTacToeGame {
+        width: 400px;
+    }
+    
+}
+
+@media (max-width:414px) {
+
+    /* DRUM KIT */
+
+    .instrument {
+        width: 5%;
+        margin: 0 9px;
+    }
+
+    kbd {
+        padding: 0 8px;
+        font-size: 0.8rem;
+    }
+
+    .sound-name {
+        font-size: 0.7rem;
+    }
+
+}
+
+@media (max-width:400px) {
+
+    .welcome {
+        font-size: 1.5rem;
+        margin: 5.5% 0;
+    }
+
+    .ticTacToeGame {
+        width: 300px;
+    }
+
+    
+    .resetTictacToe {
+        margin-right: 8%;
+    }
+
+    .cell {
+        height: 100px;
+    }
+
+    .x::after {
+        font-size: 7rem;
+    }
+
+    .o::after {
+        font-size: 7rem;
+    }
+
+    .status {
+        font-size: 1.5rem;
+    }
+    
+    .resetTictacToe {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width:360px) {
+
+    /* DRUM KIT */
+
+    .drumTitle {
+        font-size: 2rem;
+    }
+
+}
