@@ -1,0 +1,54 @@
+.clock {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    background-image: url('/img/clockNumbers.png');
+    background-size: cover;
+    border: 15px solid #fff;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 50%;
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, .4), 0 0 0 4px rgba(255, 255, 255, 1);
+}
+
+.centerClock {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.hand {
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    border-radius: 100% 0 0 100%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.2s cubic-bezier(0.42, 0, 0, 2.83);
+}
+
+.hour {
+    width: 80px;
+    background-color: #000;
+    z-index: 4;
+}
+
+.minute {
+    width: 120px;
+    background-color: rgb(118, 4, 199);
+    z-index: 3;
+}
+
+.second {
+    width: 140px;
+    background-color: #ff6767;
+    z-index: 2;
+}
+
+
+
