@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/clock.css">
+    <link rel="stylesheet" href="css/ticTacToe.css">
+    <link rel="stylesheet" href="css/drum.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <title>🔥Play my games!🔥 </title>
+</head>
+<body>
+    
+        <div class="container">
+
+            <div class="clock">
+
+                <div class="centerClock">
+                        <div class="hand hour"></div>
+
+                        <div class="hand minute"></div>
+    
+                        <div class="hand second"></div>
+                </div>
+
+            </div>
+
+            <h1 class="welcome">🔥 Welcome to my games! 🔥 </h1>
+
+            <div class="games">
+
+                <!-- Tic Tac Toe  -->
+
+                <div class="ticTacToeGame">
+
+                    <h3 class="titleTicTacToe"> Tic <span class="tac">Tac</span> Toe </h3>
+
+                    <div class="infoGame">
+
+                        <p class="status">× is Next!</p>
+
+                        <p class="resetTictacToe">Reset</p>
+
+                    </div>
+
+                    <div class="gridTicTacToe">
+                        <div class="cell top-left"></div>
+                        <div class="cell top-middle"></div>
+                        <div class="cell top-right"></div>
+                        <div class="cell middle-left"></div>
+                        <div class="cell middle-middle"></div>
+                        <div class="cell middle-right"></div>
+                        <div class="cell bottom-left"></div>
+                        <div class="cell bottom-middle"></div>
+                        <div class="cell bottom-right"></div>
+                    </div>
+
+                </div>
+
+                <!-- Drum Kit  -->
+
+                <div class="drum">
+
+                    <h3 class="drumTitle">Play this drum kit!</h3>
+
+                    <div class="drumKit">
+                        <div class="instrument">
+                            <kbd class="s">S</kbd>
+                            <span class="sound-name">Ride Cymbal</span>
+                        </div>
+                        <div class="instrument">
+                            <kbd class="d">D</kbd>
+                            <span class="sound-name">Open Hi Hat</span>
+                        </div>
+                        <div class="instrument">
+                            <kbd class="e">E</kbd>
+                            <span class="sound-name">Closed Hi-Hat</span>
+                        </div>
+                        <div class="instrument">
+                            <kbd class="f">F</kbd>
+                            <span class="sound-name">Bass Drum</span>
+                        </div>
+                        <div class="instrument">
+                            <kbd class="h">H</kbd>
+                            <span class="sound-name">Snare</span>
+                        </div>
+                        <div class="instrument">
+                            <kbd class="j">J</kbd>
+                            <span class="sound-name">Tom</span>
+                        </div>
+                        <div class="instrument">
+                            <kbd class="u">U</kbd>
+                            <span class="sound-name">Tom</span>
+                        </div>
+                        <div class="instrument">
+                            <kbd class="k">K</kbd>
+                            <span class="sound-name">Tom Floor</span>
+                        </div>
+                        <div class="instrument">
+                            <kbd class="l">L</kbd>
+                            <span class="sound-name">Crash Cymbal</span>
+                        </div>
+                    </div>
+
+                    <audio id="ride" src="drumSounds/ride-cymbal.WAV"></audio>
+                    <audio id="openHiHat" src="drumSounds/open-hihat.mp3"></audio>
+                    <audio id="closedHihat" src="drumSounds/closed-hihat.mp3"></audio>
+                    <audio id="bassDrum" src="drumSounds/bass-drum.wav"></audio>
+                    <audio id="snare" src="drumSounds/snare.wav"></audio>
+                    <audio id="tom1" src="drumSounds/tom1.wav"></audio>
+                    <audio id="tom2" src="drumSounds/tom2.wav"></audio>
+                    <audio id="floorTom" src="drumSounds/floor-tom.mp3"></audio>
+                    <audio id="crash" src="drumSounds/crash-cymbal.mp3"></audio>
+
+                </div>
+
+            </div>
+
+            <footer>
+                <p class="me">Done by Matías Godoy</p>
+            </footer>
+            
+        </div>
+
+
+        <script src="js/clock.js"></script>
+        <script src="js/ticTacToe.js"></script>
+        <script src="js/drum.js"></script>
+    </body>
+</html>
