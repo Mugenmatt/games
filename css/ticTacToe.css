@@ -1,0 +1,88 @@
+
+.ticTacToeGame {
+    background-color: #41337A;
+    width: 900px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 2%;
+    box-shadow: 5px 10px 25px;
+}
+
+.titleTicTacToe {
+    text-align: center;
+    font-size: 3rem;
+    color: #b58bbb;
+}
+
+.tac {
+    color: #6EA4BF;
+}
+
+.infoGame {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 3%;
+    width: 100%;
+}
+
+.status {
+    font-size: 2rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.resetTictacToe {
+    font-size: 2rem;
+    color: #6EA4BF;
+}
+
+.spanStatus {
+    color: brown;
+}
+
+.resetTictacToe {
+    margin-right: 8%;
+}
+
+.resetTictacToe:hover {
+    cursor: pointer;
+}
+
+.gridTicTacToe {
+    display: grid;
+    width: 100%;
+    margin-top: 5%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1%;
+    background-color: #29204d6e;
+}
+
+.cell {
+    background-color: #41337A;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x::after {
+    content: '×';
+    font-size: 20rem;
+    color: #000;
+}
+
+.o::after {
+    content: '○';
+    font-size: 20rem;
+    color: #fff;
+}
+
+.winner-line {
+    color: brown;
+}
+
+.cell:hover {
+    cursor: pointer;
+}
