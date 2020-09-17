@@ -56,12 +56,14 @@ function startGame() {
 
     score.textContent = 0;
     start.style.opacity = '0'
+    start.disabled = true;
     timeUp = true;
     popUpMole();
     setTimeout( () => {
         timeUp = false
         console.log('Whack-A-Mole: The End')
         start.style.opacity = '1'
+        start.disabled = false;
     } , 10000)
 }
 start.addEventListener('click', startGame)

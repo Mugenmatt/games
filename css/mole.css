@@ -12,6 +12,7 @@
 .titleScore {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .titleWhackAMole {
@@ -82,7 +83,7 @@
 
   .mole {
     background: url('/img/mole.png') bottom center no-repeat;
-    background-size: 30%;
+    background-size: 40%;
     position: absolute;
     top: 100%;
     left: 14%;

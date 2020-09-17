@@ -25,6 +25,12 @@
         font-size: 1.4rem;
     }
 
+    /* WHACK A MOLE */
+
+    .mole {
+        background-size: 50%;
+    }
+
 }
 
 @media (max-width:900px) {
@@ -88,6 +94,12 @@
         font-size: 1.4rem;
     }
 
+        /* WHACK A MOLE */
+
+        .mole {
+            background-size: 70%;
+        }
+
 }
 
 @media (max-width:800px) {
@@ -98,6 +110,12 @@
         width: 95%;
         background-position-y: 0;
     }
+
+        /* WHACK A MOLE */
+
+        .mole {
+            background-size: 90%;
+        }
 
 }
 
@@ -145,6 +163,36 @@
         width: 400px;
     }
     
+        /* WHACK A MOLE */
+
+        
+        .titleScore {
+            flex-direction: column;
+        }
+        
+        .titleWhackAMole {
+            font-size: 3rem;
+            margin-right: 0;
+        }
+        
+        .scoreWhackAMole {
+            font-size: 5rem;
+            margin: 1rem 0;
+            padding: 0 1.5%;
+        }
+
+        .hole:after {
+            height: 70px;
+            bottom: -16px;
+        }
+
+        .mole {
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: 90%;
+        }
+
 }
 
 @media (max-width:414px) {
@@ -163,6 +211,16 @@
 
     .sound-name {
         font-size: 0.7rem;
+    }
+    
+    /* WHACK A MOLE */
+
+    .titleWhackAMole {
+        font-size: 2rem;
+    }
+
+    .animals {
+        height: 300px;
     }
 
 }
@@ -211,6 +269,25 @@
 
     .drumTitle {
         font-size: 2rem;
+    }
+
+    /* WHACK A MOLE */
+
+    .mole {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hole {
+        margin: 0 10px;
+    }
+
+    .hole:after {
+        bottom: -10px;
+    }
+
+    .hole9 {
+        display: none;
     }
 
 }
